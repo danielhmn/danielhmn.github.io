@@ -94,6 +94,19 @@ button:hover{
     border: none;
 }
 
+.info:hover{ 
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 0.7s;
+
+}
+
+.info2:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 0.7s;
+}
+
 .info2 button:hover{
     cursor: pointer;
     background: #ffffff4f;
@@ -162,4 +175,10 @@ input::placeholder{
     gap: 8px;
     position: absolute;
     top: 92%;
+}
+
+.contacto img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.7s;
 }
