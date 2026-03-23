@@ -32,7 +32,11 @@ body{
     box-shadow:  0 0 30px hsl(0, 0%, 19%);
 }
 
-
+.login form:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 0.7s;
+}
 label{
     font-size: 20px;
     margin-left: 36px
@@ -112,4 +116,11 @@ a{
     gap: 8px;
     position: absolute;
     top: 92%;
+}
+
+
+.contacto img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.7s;
 }
