@@ -182,3 +182,27 @@ input::placeholder{
     transform: scale(1.1);
     transition: 0.7s;
 }
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 101%;      
+    top: 0;
+    flex-direction: column;
+    background: #393939ca;
+    border-radius: 10px;
+    box-shadow: 0 0 30px hsl(0, 0%, 19%);
+    white-space: nowrap;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: flex; 
+}
+
+.dropdown-menu button {
+    width: 150px;
+}
