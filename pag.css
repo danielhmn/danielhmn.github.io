@@ -16,6 +16,34 @@ body{
     animation: moverFondo 10s linear infinite;
 }
 
+.novedades button{
+    width: 30px;
+    position: absolute;
+    margin-left: 82%;
+    margin-top: -5%;
+    border-radius: none;
+}
+
+.novedades img{
+    width: 200px;
+    height: auto;
+    border-radius: none;
+    border: 3px solid #6b6b6b;
+}
+
+.novedadesj button{
+    width: 200px;
+    margin-left: 58%;
+    margin-top: 1%;
+    position: absolute;
+    
+}
+
+.novedadesj img{
+    width: 200px;
+    height: auto;
+        border: 3px solid #6b6b6b;
+}
 
 img{
     border-radius: 20px;
@@ -205,4 +233,21 @@ input::placeholder{
 
 .dropdown-menu button {
     width: 150px;
+}
+
+.nintendo img{
+    width: 200px;
+    height: auto;
+    background: none;
+    position: absolute;
+    margin-left: 82.7%;
+    margin-top: 18%
+}
+.nintendoj img{
+    width: 200px;
+    height: auto;
+    background: none;
+    position: absolute;
+    margin-left: 58.7%;
+    margin-top: 24%
 }
